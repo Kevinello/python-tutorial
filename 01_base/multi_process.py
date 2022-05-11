@@ -18,7 +18,7 @@ def task_handler(curr_list, result_queue):
 
 
 def main():
-    processes = []
+    processes = [Process]
     number_list = [x for x in range(1, 100000001)]
     result_queue = Queue()
     index = 0
